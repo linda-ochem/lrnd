@@ -23,5 +23,5 @@ jobs:
       run: docker build -t cleowoman/lrnd .
 
     - name: Push Docker image to Docker Hub
-      run: docker push cleowoman/api:v2
+      run: docker push cleowoman/lrnd
         
